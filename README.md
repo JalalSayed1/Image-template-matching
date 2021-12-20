@@ -5,7 +5,7 @@
 - It Loads images in gray scale for analysis.
 - It uses multiple analysis methods to find the best one that founds a match.
 
-## Image analysis methods:
+## Image analysis algorithms (methods):
 - `cv2.TM_CCOEFF`, `cv2.TM_CCOEFF_NORMED`, `cv2.TM_CCORR`, `cv2.TM_CCORR_NORMED`, `cv2.TM_SQDIFF` and `cv2.TM_SQDIFF_NORMED`
 - For `cv2.TM_SQDIFF` and `cv2.TM_SQDIFF_NORMED`, we use the min location values as starting point for the analysis.
 - Every other method uses the max location value to do its job.
